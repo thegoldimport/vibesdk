@@ -140,12 +140,7 @@
 	],
 	"routes": [
   { "pattern": "buildcustom.ai", "custom_domain": true },
-  { "pattern": "www.buildcustom.ai", "custom_domain": true },
-  {
-    "pattern": "*build-preview.cloudflare.dev/*",
-    "custom_domain": false,
-    "zone_id": "db01fac4261b2604aacad8410443a3e2"
-  }
+  { "pattern": "www.buildcustom.ai", "custom_domain": true }
 ],
 	"vars": {
         "TEMPLATES_REPOSITORY": "https://github.com/cloudflare/vibesdk-templates",
