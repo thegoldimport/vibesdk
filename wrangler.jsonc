@@ -139,8 +139,8 @@
         }
 	],
 	"routes": [
-  { "pattern": "buildcustom.ai/*", "custom_domain": true },
-  { "pattern": "www.buildcustom.ai/*", "custom_domain": true },
+  { "pattern": "buildcustom.ai", "custom_domain": true },
+  { "pattern": "www.buildcustom.ai", "custom_domain": true },
   {
     "pattern": "*build-preview.cloudflare.dev/*",
     "custom_domain": false,
