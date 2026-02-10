@@ -6,6 +6,12 @@
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "vibesdk-production",
 	"main": "worker/index.ts",
+"kv_namespaces": [
+  {
+    "binding": "VibecoderStore",
+    "id": "5349d2949ee047e4b93808e1684723f3"
+  }
+],
 	"compatibility_date": "2025-08-10",
 	"compatibility_flags": ["nodejs_compat"],
     "version_metadata": {
